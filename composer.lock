@@ -59,12 +59,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:fjr-software/flinkbot-server.git",
-                "reference": "50a902238a3e0d0fe4a0e356c7b0e4a5bf749646"
+                "reference": "c34a897b05ea180ff7fd9ae9ba8aa5f6d83ac8ce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fjr-software/flinkbot-server/zipball/50a902238a3e0d0fe4a0e356c7b0e4a5bf749646",
-                "reference": "50a902238a3e0d0fe4a0e356c7b0e4a5bf749646",
+                "url": "https://api.github.com/repos/fjr-software/flinkbot-server/zipball/c34a897b05ea180ff7fd9ae9ba8aa5f6d83ac8ce",
+                "reference": "c34a897b05ea180ff7fd9ae9ba8aa5f6d83ac8ce",
                 "shasum": ""
             },
             "require": {
@@ -103,7 +103,7 @@
                 "source": "https://github.com/fjr-software/flinkbot-server/tree/develop",
                 "issues": "https://github.com/fjr-software/flinkbot-server/issues"
             },
-            "time": "2023-12-11T23:18:12+00:00"
+            "time": "2023-12-11T23:29:14+00:00"
         },
         {
             "name": "react/cache",
