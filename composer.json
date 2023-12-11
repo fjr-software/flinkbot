@@ -1,0 +1,29 @@
+{
+    "name": "fjr-software/flinkbot",
+    "description": "Create your own automated cryptocurrency trading bot with our robust cloud-based solution",
+    "version": "1.0.0",
+    "type": "project",
+    "license": "proprietary",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/fjr-software/flinkbot-server"
+        }
+    ],
+    "authors": [
+        {
+            "name": "Francisco Júnior",
+            "email": "franciscojr.dev@gmail.com",
+            "homepage": "https://fjrsoftware.com/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "FjrSoftware\\Flinkbot\\": "src/"
+        }
+    },
+    "require": {
+        "fjr-software/flinkbot-server": "dev-develop"
+    }
+}
