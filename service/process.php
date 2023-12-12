@@ -4,11 +4,8 @@ declare(strict_types=1);
 
 require __DIR__ . '/../vendor/autoload.php';
 
-use FjrSoftware\Flinkbot\Bot\Bot;
-use FjrSoftware\Flinkbot\Bot\Operation;
-
-use FjrSoftware\Flinkbot\Server\Server;
-use FjrSoftware\Flinkbot\Server\Handler;
+use FjrSoftware\Flinkbot\Bot\{Bot, Operation};
+use FjrSoftware\Flinkbot\Server\{Server, Handler};
 use React\EventLoop\LoopInterface;
 use React\Socket\ConnectionInterface;
 
