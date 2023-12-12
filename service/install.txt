@@ -2,9 +2,9 @@ sudo adduser flinkbot
 mkdir /home/flinkbot
 
 chown -R flinkbot:flinkbot /home/flinkbot/
-cp /var/www/html/application/service/flinkbot.service /etc/systemd/system/flinkbot.service
+cp /home/flinkbot/app/service/flinkbot.service /etc/systemd/system/flinkbot.service
 
-sudo usermod -a -G sudo flinkbot
+##sudo usermod -a -G sudo flinkbot
 
 systemctl daemon-reload
 systemctl enable flinkbot

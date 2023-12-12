@@ -1,6 +1,6 @@
 <?php
 
-require __DIR__ . '/vendor/autoload.php';
+require __DIR__ . '/../vendor/autoload.php';
 
 use FjrSoftware\FlinkbotServer\Server\Server;
 use FjrSoftware\FlinkbotServer\Server\Handler;
