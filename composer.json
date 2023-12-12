@@ -7,6 +7,14 @@
     "repositories": [
         {
             "type": "vcs",
+            "url": "https://github.com/fjr-software/flinkbot-bot"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/fjr-software/flinkbot-request"
+        },
+        {
+            "type": "vcs",
             "url": "https://github.com/fjr-software/flinkbot-server"
         }
     ],
@@ -24,6 +32,8 @@
         }
     },
     "require": {
+        "fjr-software/flinkbot-bot": "dev-develop",
+        "fjr-software/flinkbot-request": "dev-develop",
         "fjr-software/flinkbot-server": "dev-develop"
     }
 }
