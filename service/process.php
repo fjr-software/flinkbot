@@ -45,7 +45,7 @@ if ($type == 'server') {
         unlink("/srv/flinkbot/customer-{$customerId}.sock");
     }
 
-    $botOperator = new Bot($customerId);
+    $botOperator = new Bot($customerId, __FILE__, 60);
 
     $server = new Server(
         "unix:///srv/flinkbot/customer-{$customerId}.sock",

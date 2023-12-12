@@ -62,8 +62,8 @@ $server = new Server(
                                 );
 
                             if (!$serverOn) {
-                                $fileProcess = __DIR__ . '/process.php';
-                                $fileLog = __DIR__ . '/logs/bot.log';
+                                $fileProcess = dirname(__DIR__, 1) . '/service/process.php';
+                                $fileLog = dirname(__DIR__, 1) . "/logs/customer-{$customerId}.log";
                                 $cmd = sprintf('/usr/bin/php %s --type=server --customer=%d > %s& echo $!', $fileProcess, $customerId, $fileLog);
 
                                 $pid = (int) trim(shell_exec($cmd));
