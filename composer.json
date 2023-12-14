@@ -16,6 +16,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/fjr-software/flinkbot-server"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/fjr-software/flinkbot-exchange"
         }
     ],
     "authors": [
@@ -34,6 +38,7 @@
     "require": {
         "fjr-software/flinkbot-bot": "dev-develop",
         "fjr-software/flinkbot-request": "dev-develop",
-        "fjr-software/flinkbot-server": "dev-develop"
+        "fjr-software/flinkbot-server": "dev-develop",
+        "fjr-software/flinkbot-exchange": "dev-develop"
     }
 }
