@@ -3,8 +3,9 @@
 declare(strict_types=1);
 
 require __DIR__ . '/../vendor/autoload.php';
+require __DIR__ . '/../config.php';
 
-use FjrSoftware\Flinkbot\Bot\{Bot, Operation};
+use FjrSoftware\Flinkbot\Bot\{Bot, Database, Operation};
 use FjrSoftware\Flinkbot\Server\{Server, Handler};
 use React\EventLoop\LoopInterface;
 use React\Socket\ConnectionInterface;
@@ -33,6 +34,9 @@ function now(): string {
 $init = now();
 
 if ($type == 'symbol') {
+    // Run database
+    Database::bootstrap();
+
     $operation = new Operation($botId, $symbol);
     $operation->run();
 }
