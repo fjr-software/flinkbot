@@ -33,10 +33,10 @@ function now(): string {
 
 $init = now();
 
-if ($type == 'symbol') {
-    // Run database
-    Database::bootstrap();
+// Run database
+Database::bootstrap();
 
+if ($type == 'symbol') {
     $operation = new Operation($botId, $symbol);
     $operation->run();
 }
