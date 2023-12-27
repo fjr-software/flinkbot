@@ -12,5 +12,7 @@ systemctl enable flinkbot
 service flinkbot start
 service flinkbot status
 
-date.timezone = America/Sao_Paulo
-ln -sf /usr/share/zoneinfo/America/Sao_Paulo /etc/localtime
+/etc/php/8.2/cli/php.ini
+date.timezone = Etc/UTC
+
+ln -sf /usr/share/zoneinfo/Etc/UTC /etc/localtime
