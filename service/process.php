@@ -47,6 +47,7 @@ if ($type == 'server') {
     }
 
     $botOperator = new Bot($customerId, __FILE__, 150);
+    $botOperator->setHost(defined('HOST') ? HOST : '127.0.0.1');
 
     $server = new Server(
         "unix:///srv/flinkbot/customer-{$customerId}.sock",
