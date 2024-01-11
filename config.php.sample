@@ -13,3 +13,8 @@ define('DBPASS', '');
  * Flinkbot configuration
  */
 define('SECRET_KEY ', '');
+
+/**
+ * Host
+ */
+define('HOST', '127.0.0.1');
