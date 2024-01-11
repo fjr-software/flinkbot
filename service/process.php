@@ -37,7 +37,7 @@ $init = now();
 Database::bootstrap();
 
 if ($type == 'symbol') {
-    $operation = new Operation($botId, $symbol);
+    $operation = new Operation($botId, $symbol, defined('HOST') ? HOST : '127.0.0.1');
     $operation->run();
 }
 
