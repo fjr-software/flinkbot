@@ -83,3 +83,8 @@ Input/output settings are defined in the `bots` table (a more detailed descripti
 
 ## Project Status
 The project is currently under development and may contain errors/bugs.
+
+## Additional Information
+
+- Currently, the bot is implemented only for the Binance exchange.
+- It is limited to the futures market only.
