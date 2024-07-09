@@ -14,6 +14,8 @@ CPUAccounting=true
 CPUQuota=75%
 MemoryAccounting=true
 MemoryMax=3072M
+StandardOutput=file:/home/flinkbot/app/logs/output.log
+StandardError=file:/home/flinkbot/app/logs/error.log
 
 [Install]
 WantedBy=multi-user.target
