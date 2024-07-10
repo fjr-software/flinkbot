@@ -4,28 +4,6 @@
     "version": "1.0.0",
     "type": "project",
     "license": "proprietary",
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/fjr-software/flinkbot-bot"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/fjr-software/flinkbot-request"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/fjr-software/flinkbot-server"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/fjr-software/flinkbot-exchange"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/fjr-software/flinkbot-indicator"
-        }
-    ],
     "authors": [
         {
             "name": "Francisco Júnior",
