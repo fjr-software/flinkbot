@@ -27,7 +27,7 @@ extension=trader
 
 ### 1. Run Composer Install
 ```sh
-composer install
+composer create-project fjr-software/flinkbot -s dev
 ```
 
 ### 2. Rename `config.php.sample` to `config.php` and configure it with your data
